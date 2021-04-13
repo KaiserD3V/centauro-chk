@@ -4,6 +4,8 @@ import requests
 import colorama
 from time import sleep
 from colorama import Fore, Style
+from os import system
+system("cls")
 colorama.init()
 
 a = open("lista.txt", "r", encoding="utf8")
